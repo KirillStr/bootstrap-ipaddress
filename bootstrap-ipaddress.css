@@ -1,0 +1,42 @@
+/*!
+ * IP Address Widget for Bootstrap 3
+//! version : 0.0.0
+ */
+.bootstrap-ipaddress-widget .btn {
+    border: none;
+}
+
+.bootstrap-ipaddress-widget .btn:hover {
+    background-color: #e6e6e6;
+}
+
+.bootstrap-ipaddress-widget .ipaddress-picker span.btn {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.bootstrap-ipaddress-widget table {
+    width: 100%;
+    margin: 0;
+}
+
+.bootstrap-ipaddress-widget td,
+.bootstrap-ipaddress-widget th {
+    text-align: center;
+}
+
+.bootstrap-ipaddress-widget span.btn, 
+.bootstrap-ipaddress-widget a.btn {
+    width: 54px;
+    height: 54px;
+    line-height: 44px;
+    margin: 2px 1.5px;
+    cursor: pointer;
+}
+
+.bootstrap-ipaddress-widget span.btn:active, 
+.bootstrap-ipaddress-widget a.btn:active {
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+}
