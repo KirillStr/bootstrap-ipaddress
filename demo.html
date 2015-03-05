@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Bootstrap IpAddress - demo</title>
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-ipaddress.css">
+  <script type="text/javascript" src="bootstrap-ipaddress.js"></script>
+  
+  <script type="text/javascript">
+  //<![CDATA[ 
+  $(document).ready(function () {
+     //$('#IpDemo').ipaddress();
+     $('input[name=ip]').ipaddress();
+     $('#IpDemo').ipaddress();
+  });
+  //]]>
+ </script>
+</head>
+<body>
+  <div class="container">    
+    <div class="row">
+        <div class="col-md-12 form-group">
+            <div class="input-group">
+                <input type="text" id="ip1" name="ip" class="form-control" value="10.0.2.15" disabled="">
+                <span class="input-group-btn">
+                    <button class="btn" type="button"><span class="glyphicon glyphicon-cog"></span>&nbsp;</button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 form-group">
+            <div class="input-group">
+                <input type="text" id="ip2" name="ip" class="form-control" value="10.0.2.15">
+                <span class="input-group-btn">
+                    <button class="btn" type="button"><span class="glyphicon glyphicon-cog"></span>&nbsp;</button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 form-group">
+            <div class="input-group" id="IpDemo">
+                <input type="text" id="ip3" name="ip" class="form-control" value="10.0.2.15">
+                <span class="input-group-btn">
+                    <button class="btn" type="button"><span class="glyphicon glyphicon-cog"></span>&nbsp;</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
